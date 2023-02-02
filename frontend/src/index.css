@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.product {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 70px;
+}
+
+.product__name,
+.product__reminder-price,
+.product__current-price,
+.product__change-percentage,
+.product__desired-price {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+              /* ////////////////////// */
+
+/* With A at the end */
+
+.productA {
+  display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.product_nameA{
+  display: flex;
+  flex-direction: column;
+}
+
+.product__reminder-priceA ,
+.product__current-priceA ,
+.product__change-percentageA ,
+.product__desired-priceA {
+padding-inline: 20px;
+}
+
+.product__reminder-priceA p,
+.product__current-priceA p,
+.product__change-percentageA p,
+.product__desired-priceA p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.inside_classA {
+  display: flex;
+  align-items: center;
+  }
+  
+  .inside_classA .star {
+  margin-right: 15px;
+  cursor: pointer;
+  }
+  
+  .inside_classA .bitcoin-icon {
+  margin-right: 10px;
+  }
+  
+  .inside_class_twoA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .inside_class_twoA p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  }
