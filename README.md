@@ -28,7 +28,7 @@ npm test
 
 Refer to the running tests documentation for more information.
 
-# Additionally, test the backend APIs in the Postman for a better understanding
+#### Additionally, test the backend APIs in the Postman for a better understanding
 
 ## Step 4: Build frontend for Production
 
