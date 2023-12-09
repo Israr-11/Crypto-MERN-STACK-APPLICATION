@@ -4,15 +4,13 @@ import React from "react";
 
 const Product = () => {
   return (
-    <div className="product" >
-
-      <div className="product__name" >
+    <div className="product">
+      <div className="product__name">
         <h3>Name</h3>
       </div>
 
       <div className="product__reminder-price">
         <h3>Reminder</h3>
-
       </div>
       <div className="product__current-price">
         <h3>Price</h3>

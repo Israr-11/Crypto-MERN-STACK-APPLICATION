@@ -5,35 +5,30 @@ import { AiTwotoneStar } from "react-icons/ai";
 import { useNavigate } from "react-router";
 
 function HomePage(props) {
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
-const handleStarClick = () => {
+  const handleStarClick = () => {
     navigate("/liked");
   };
   return (
     <div>
-     <h2 style={{textAlign:"center"}}>{props.Heading}</h2>
+      <h2 style={{ textAlign: "center" }}>{props.Heading}</h2>
 
       <div
         className="icons_above_header"
-        style={{ marginTop: "-50px", marginLeft: "180px" }}>
+        style={{ marginTop: "-50px", marginLeft: "180px" }}
+      >
         <AiTwotoneHeart style={{ fontSize: "50px", fill: "LightGray" }} />
-        <AiTwotoneStar style={{ fontSize: "50px" }}
-         onClick={() => {
-          handleStarClick();
-        }}
+        <AiTwotoneStar
+          style={{ fontSize: "50px" }}
+          onClick={() => {
+            handleStarClick();
+          }}
         />
       </div>
-    <Product/>
-
+      <Product />
     </div>
   );
 }
 
 export default HomePage;
-
-
-
-
-
-

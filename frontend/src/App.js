@@ -7,9 +7,8 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<GetAll />} />
-        <Route path='/liked' element={<GroupPost />} />
-
+        <Route path="/" element={<GetAll />} />
+        <Route path="/liked" element={<GroupPost />} />
       </Routes>
     </div>
   );
